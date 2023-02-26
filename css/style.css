@@ -1,0 +1,98 @@
+﻿
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/top_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+footer {
+
+}
+
+/* ==================================
+    ナビゲーションバー
+==================================== */
+.sticky-top {
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.navbar {
+}
+
+.navbar-nav {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.navbar-brand {
+    display: block;
+    text-decoration: none;
+    margin-right: 1.0rem;
+    padding: 1.0rem;
+    color: rgba(255,255,255,1);
+    font-size: 3.0rem;
+    font-family: Impact;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    margin-right: 2.0rem;
+    padding: 2.0rem;
+    color: rgba(255,255,255,1);
+    font-size: 2.0rem;
+    font-family: serif;
+}
+
+
+/* ==================================
+    フッター
+==================================== */
+.footer-fixed {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+}
+
+.copylight {
+    color: black;
+    font-family: Impact;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    p {
+        background-color: black;
+        color: green;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        background-color: black;
+        color: red;
+    }
+}
+

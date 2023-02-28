@@ -6,15 +6,24 @@ html {
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+footer {
+
+}
+
+
+/* ==================================
+    背景設定
+==================================== */
+.back-image {
     background-image: url("../image/top_image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-footer {
-
-}
 
 /* ==================================
     ナビゲーションバー
@@ -32,7 +41,6 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-top: 0;
-
 }
 
 .nav-item {
@@ -44,7 +52,7 @@ footer {
     text-decoration: none;
     margin-right: 1.0rem;
     padding: 1.0rem;
-    color: rgba(255,255,255,1);
+    color: rgba(255,255,255,0.7);
     font-size: 3.0rem;
     font-family: Impact;
 }
@@ -52,16 +60,16 @@ footer {
 .nav-link {
     display: block;
     text-decoration: none;
-    margin-right: 2.0rem;
+    margin-right: 10%;
     padding: 2.0rem;
-    color: rgba(255,255,255,1);
+    color: rgba(255,255,255,0.7);
     font-size: 2.0rem;
     font-family: serif;
 }
 
 
 /* ==================================
-    フッター
+    コピーライト表示
 ==================================== */
 .footer-fixed {
     display: flex;

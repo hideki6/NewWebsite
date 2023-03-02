@@ -62,6 +62,7 @@ footer {
     text-decoration: none;
     margin-right: 10%;
     padding: 2.0rem;
+    text-align: center;
     color: rgba(255,255,255,0.7);
     font-size: 2.0rem;
     font-family: serif;
@@ -89,15 +90,28 @@ footer {
 }
 
 
+/* ==================================
+    タブレット向け設定
+==================================== */
+@media screen and (max-width: 1020px) and (min-width: 768px) {
+    html {
+        font-size: 80%;
+    }
 
-@media screen and (max-width: 768px) {
     p {
         background-color: black;
         color: green;
     }
 }
 
-@media screen and (max-width: 480px) {
+/* ==================================
+    スマホ向け設定
+==================================== */
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 100%;
+    }
+
     p {
         background-color: black;
         color: red;

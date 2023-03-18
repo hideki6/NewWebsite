@@ -112,11 +112,6 @@ footer {
         font-size: 80%;
     }
 
-    p {
-        background-color: black;
-        color: green;
-    }
-
     /* ==================================
     ハンバーガーアイコン
     ==================================== */
@@ -198,11 +193,6 @@ footer {
 @media screen and (max-width: 767px) {
     html {
         font-size: 100%;
-    }
-
-    p {
-        background-color: black;
-        color: red;
     }
 
     /* ==================================

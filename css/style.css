@@ -17,7 +17,7 @@ footer {
 /* ==================================
     背景設定
 ==================================== */
-.back-image {
+.back-image-home {
     background-image: url("../image/top_image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -266,6 +266,10 @@ footer {
 
     .nav-toggle:checked ~ .navbar-nav {
         display: block;
+    }
+
+    .navbar-brand {
+        font-size: 2.0rem;
     }
 }
 

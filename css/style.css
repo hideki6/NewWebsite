@@ -56,7 +56,7 @@ footer {
     padding: 1.0rem;
     color: rgba(255,255,255,0.8);
     font-size: 3.0rem;
-    font-family: Impact;
+    font-family: Impact, 'Arial Rounded MT Bold', sans-serif;
 }
 
 .nav-link {

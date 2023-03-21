@@ -227,11 +227,11 @@ footer {
 
     /*三本線の間隔*/
     .icon:before {
-        top: 10px;
+        top: 1.5rem;
     }
 
     .icon:after {
-        top: -20px;
+        top: -1.5rem;
     }
 
     /*チェックボックス非表示*/

@@ -24,6 +24,10 @@ footer {
     background-size: cover;
 }
 
+.back-image {
+    background-color: #BBBBBB;
+}
+
 
 /* ==================================
     ナビゲーションバー
@@ -86,6 +90,20 @@ footer {
 .btn-burger {
     display: none;
 }
+
+
+/* ==================================
+    About
+==================================== */
+.about-me {
+    margin: 5% 10%;     /* [上下][左右] */
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
 
 
 /* ==================================

@@ -69,6 +69,11 @@ footer {
     font-family: serif;
 }
 
+.nav-item .now-page-symbol {
+    background-position-y: 2.5rem;
+    background-image: radial-gradient(0.4rem 0.4rem at center center, silver, silver 100%,transparent);
+}
+
 .nav-menu {
     display: inline;
 }
@@ -185,6 +190,12 @@ footer {
         display: block;
     }
 
+    .nav-item .now-page-symbol {
+        background-position-y: 0;
+        background-position-x: -6rem;
+        background-image: radial-gradient(0.4rem 0.4rem at center center, silver, silver 100%,transparent);
+    }
+
 }
 
 /* ==================================
@@ -271,5 +282,12 @@ footer {
     .navbar-brand {
         font-size: 2.0rem;
     }
+
+    .nav-item .now-page-symbol {
+        background-position-y: 0;
+        background-position-x: -6rem;
+        background-image: radial-gradient(0.4rem 0.4rem at center center, silver, silver 100%,transparent);
+    }
+
 }
 

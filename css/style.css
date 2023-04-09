@@ -95,12 +95,15 @@ footer {
 /* ==================================
     About
 ==================================== */
-.about-me {
-    margin: 5% 10%;     /* [上下][左右] */
+.main-contents {
+    margin: 3% 10%;     /* [上下][左右] */
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
+.my-icon .icon {
+    width: 20vw;
+}
 
 
 
@@ -214,6 +217,17 @@ footer {
         background-image: radial-gradient(0.4rem 0.4rem at center center, silver, silver 100%,transparent);
     }
 
+    /* ==================================
+        About
+    ==================================== */
+    .main-contents {
+        margin: 3% 10%; /* [上下][左右] */
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .my-icon .icon {
+        width: 20vw;
+    }
 }
 
 /* ==================================
@@ -307,5 +321,16 @@ footer {
         background-image: radial-gradient(0.4rem 0.4rem at center center, silver, silver 100%,transparent);
     }
 
+    /* ==================================
+        About
+    ==================================== */
+    .main-contents {
+        margin: 3% 10%; /* [上下][左右] */
+        text-align: center;
+        font-size: 1rem;
+    }
+    .my-icon .icon {
+        width: 20vw;
+    }
 }
 

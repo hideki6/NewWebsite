@@ -101,7 +101,7 @@ footer {
     font-size: 1.8rem;
 }
 
-.my-icon .icon {
+.about-myicon .myicon {
     width: 20vw;
 }
 
@@ -225,9 +225,10 @@ footer {
         text-align: center;
         font-size: 1.3rem;
     }
-    .my-icon .icon {
+    .about-myicon .myicon {
         width: 20vw;
     }
+
 }
 
 /* ==================================
@@ -326,11 +327,12 @@ footer {
     ==================================== */
     .main-contents {
         margin: 3% 10%; /* [上下][左右] */
-        text-align: center;
+        text-align: left;
         font-size: 1rem;
     }
-    .my-icon .icon {
+    .about-myicon .myicon {
         width: 20vw;
     }
+
 }
 

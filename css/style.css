@@ -105,8 +105,35 @@ footer {
     width: 20vw;
 }
 
+/*吹き出し設定*/
+.arrow_box {
+    position: relative;
+    background: #FFFFFF;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+}
 
-
+.arrow_box:after {
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    position: absolute;
+    border-color: rgba(232, 232, 232, 0);
+    border-top-width: 3rem;
+    border-bottom-width: 3rem;
+    border-left-width: 2rem;
+    border-right-width: 2rem;
+    margin-left: -2rem;
+    border-bottom-color: #FFFFFF;
+    bottom: 100%;
+    left: 40%;
+}
 
 
 /* ==================================
@@ -332,6 +359,36 @@ footer {
     }
     .about-myicon .myicon {
         width: 20vw;
+    }
+
+    /*吹き出し設定*/
+    .arrow_box {
+        position: relative;
+        background: #FFFFFF;
+        margin-top: 2rem;
+        padding: 1rem;
+        font-weight: bold;
+        border-radius: 17px;
+        -webkit-border-radius: 17px;
+        -moz-border-radius: 17px;
+    }
+
+    .arrow_box:after {
+        border: solid transparent;
+        content: '';
+        height: 0;
+        width: 0;
+        pointer-events: none;
+        position: absolute;
+        border-color: rgba(232, 232, 232, 0);
+        border-top-width: 1rem;
+        border-bottom-width: 1rem;
+        border-left-width: 1rem;
+        border-right-width: 1rem;
+        margin-left: -2rem;
+        border-bottom-color: #FFFFFF;
+        bottom: 100%;
+        left: 45%;
     }
 
 }
